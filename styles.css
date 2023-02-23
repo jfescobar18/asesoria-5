@@ -1,0 +1,78 @@
+.banner {
+    text-align: center;
+}
+
+.prices {
+    display: flex;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan h1 {
+    font-weight: bold;
+}
+
+.plan h1 span {
+    color: gray;
+}
+
+.plan p {
+    margin-bottom: 0px;
+}
+
+.plan button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.plan-header {
+    font-weight: bold;
+    background-color: rgb(199, 199, 199);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+@media(min-width: 320px) and (max-width: 767px) {
+    .plan {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .prices {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .plan {
+        width: 25%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 1024px) {
+    .plan {
+        width: 30%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1440px) {
+    .prices {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 2560px) {
+    .prices {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
